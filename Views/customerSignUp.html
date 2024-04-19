@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\Assets\css\customerSignUp.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div class="signUpBox">
+        <h2 class="greet">Looks like you’re new here.<br>
+            We need some info.</h2>
+    <form action="../controllers/signUpCheck.php"" method="post">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td >
+                    <fieldset>
+                        <legend><h3>Sign-Up</h3></legend>
+                        <label for="fullName">Full Name</label> <br>
+                        <input type="text" name="name" value="" id="fullName" placeholder="Full Name*"><br/>
+                        <label for="userName">User Name</label> <br>
+                        <input type="text" name="userName" value="" id="userName" placeholder="User Name*"><br/>   
+                        <label for="email">Email Address</label> <br>
+                        <input type="text" name="email" value="" id="email" placeholder="Email Address*" ><br/>  
+                        <label for="pass">Password</label> <br>
+                        <input type="password" name="pass" value="" id="pass" placeholder="Password*"><br/>  
+                    </td>
+
+                </tr>
+                    <tr>
+                    <td>
+                        <input type="checkbox" name="agreeUpdates" value="agree" checked>
+                        <label for="agree">Be the first to hear about new releases, special offers and more.</label>
+                        <p>By clicking "Register", you agree to our <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+                        <input type="submit" name="Register" value="Register">     
+                    </td>                                     
+                
+            </tr>    
+        </fieldset>                            
+        </table>
+    </form>
+</div>
+</body>
+</html>

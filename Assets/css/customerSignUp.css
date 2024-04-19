@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+	padding: 0;
+    font-family: ProximaNova, sans-serif;
+}
+
+.greet {
+    font-weight: 600;
+}
+h2 {
+    font-size: 2.4rem;
+    line-height: 1.35;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.signUpBox{
+
+	/* width: 320px;
+	height: 420px; */
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	/* padding: 70px, 40px; */
+}
+
+.signUpBox a{
+
+	text-decoration: none; 
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+	margin-left: 10px;
+}
+
+.signUpBox a:hover
+{
+	color: #ffc107;
+}
