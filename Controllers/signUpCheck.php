@@ -1,5 +1,6 @@
 <?php
 require_once('../Models/customerModel.php');
+require_once('../Controllers/emailRequestController.php');
 
 if (isset($_POST['Register'])) {
 $name = $_POST['name'];
@@ -16,6 +17,7 @@ if (empty($userName) || empty($name) || empty($email) || empty($pass)) {
         $result = signUp($valid_signUp_request, $userName, $name, $email, $pass);
         if ($result) {
             echo "Sign-Up Compeleted";
+            signUpConfirmationEmail($email, $userName);
         }
     }
 }
