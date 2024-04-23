@@ -39,50 +39,54 @@ try {
 	
 	$mail->isHTML(true);								
 	$mail->Subject = 'Welcome to Bangladesh\'s premier sneaker marketplace';
-	$mail->Body = '<body style="font-family: \'Poppins\', Arial, sans-serif">
+	$mail->Body = '<body style="font-family: ProximaNova, sans-serif">
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td align="center" style="padding: 20px;">
                 <table class="content" width="600" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 1px solid #cccccc;">
                     <!-- Header -->
                     <tr>
-                        <td class="header" style="background-color: #345C72; padding: 40px; text-align: center; color: white; font-size: 24px;">
-                        Responsive Email Template
+                        <td class="header" style="background-color: #313131; padding: 40px; text-align: center; color: white; font-size: 22px;">
+                        Welcome to Sole Mates! We\'re glad you joined us.
                         </td>
                     </tr>
 
                     <!-- Body -->
                     <tr>
-                        <td class="body" style="padding: 40px; text-align: left; font-size: 16px; line-height: 1.6;">
-                        Hello, All! <br>
-                        Lorem odio soluta quae dolores sapiente voluptatibus recusandae aliquam fugit ipsam.
-                        <br><br>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corporis sint eum nemo animi velit exercitationem impedit. Incidunt, officia facilis  atque? Ipsam voluptas fugiat distinctio blanditiis veritatis.            
+                        <td class="body" style="padding: 20px; text-align: left; font-size: 16px; line-height: 1.6;">
+                        To log in when visiting our site click Login or My Account, and then enter your email address and password. 
                         </td>
                     </tr>
 
                     <!-- Call to action Button -->
                     <tr>
-                        <td style="padding: 0px 40px 0px 40px; text-align: center;">
+                        <td style="padding: 0px 20px 0px 20px; text-align: center;">
                             <!-- CTA Button -->
                             <table cellspacing="0" cellpadding="0" style="margin: auto;">
                                 <tr>
-                                    <td align="center" style="background-color: #345C72; padding: 10px 20px; border-radius: 5px;">
-                                        <a href="https://www.yourwebsite.com" target="_blank" style="color: #ffffff; text-decoration: none; font-weight: bold;">Book a Free Consulatation</a>
+                                    <td align="center" style="background-color: #313131; padding: 10px 20px; border-radius: 5px;">
+                                        <a href="http://localhost/SoleMates/Views/customerSignUp.html" target="_blank" style="color: #ffffff; text-decoration: none; font-weight: bold;">Login to continue</a>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
                     <tr>
-                        <td class="body" style="padding: 40px; text-align: left; font-size: 16px; line-height: 1.6;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corporis sint eum nemo animi velit exercitationem impedit.             
+                        <td class="body" style="padding: 20px; text-align: left; font-size: 16px; line-height: 1.6;">
+                        When you log in to your account, you will be able to do the following:
+                        <ul>
+                        <li>Proceed through checkout faster when making a purchase</li>
+                        <li>Check the status of orders</li>
+                        <li>View past orders</li>
+                        <li>Make changes to your account information</li>
+                        <li>Change your password</li>
+                            </ul>             
                         </td>
                     </tr>
                     <!-- Footer -->
                     <tr>
-                        <td class="footer" style="background-color: #333333; padding: 40px; text-align: center; color: white; font-size: 14px;">
-                        Copyright &copy; 2024 | Your brand name
+                        <td class="footer" style="background-color: #313131; padding: 40px; text-align: center; color: white; font-size: 14px;">
+                        Copyright &copy; 2024 | Sole Mates
                         </td>
                     </tr>
                 </table>
@@ -90,11 +94,11 @@ try {
         </tr>
     </table>
 </body>';
-	$mail->AltBody = 'Welcome to Sole Mates $userName! We\'re glad you joined us.';
+	$mail->AltBody = 'Welcome to Sole Mates! We\'re glad you joined us.';
 	$mail->send();
 	echo "Mail has been sent successfully!";
 } catch (Exception $e) {
-	echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+	//echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 }
 

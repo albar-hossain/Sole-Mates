@@ -6,11 +6,11 @@
 	<title>Login</title>
 </head>
 <body>
-
-<form method="get" action="../Controllers/logCheckController.php">
-ID<input type="text" name="id"><br>
-Pass:<input type="text" name="pass"><br>
-<button>Log</button>
+<form method="post" action="../Contollers/logCheckController.php">
+ID: <input type="text" name="id"><br>
+Pass: <input type="password" name="pass"><br>
+<button>Login</button>
 </form>
+
 </body>
 </html>
