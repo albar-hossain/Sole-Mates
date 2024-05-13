@@ -11,7 +11,7 @@
 <body>
 	<div class="signUpBox">
 		<h2 class="greet">Welcome to Sole Mates</h2>
-		<form action="../controllers/signUpCheckController.php"" method=" post">
+		<form action="../Controllers/logCheckController.php"" method=" post">
 			<br>
 			<input type="text" name="userName" value="" id="userName" placeholder="User Name*"><br />
 			<br>

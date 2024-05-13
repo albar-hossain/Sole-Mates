@@ -1,5 +1,5 @@
-<?php 
-    require_once('db.php');
+<?php
+require_once ('db.php');
 
 
 function signUp($valid_signUp_request, $userName, $name, $email, $pass)
@@ -29,10 +29,46 @@ function signUp($valid_signUp_request, $userName, $name, $email, $pass)
         $sql = "INSERT INTO users VALUES ('$userName','$name','$email','$pass');";
         $res = mysqli_query($con, $sql);
         return true;
-
     } else {
         return false;
     }
 }
 
-?>
+// function login($username, $password)
+// {
+//     $con = getConnection();
+//     $sql = "select * from users where UserName='{$username}' and password='{$password}'";
+//     $result = mysqli_query($con, $sql);
+//     $count = mysqli_num_rows($result);
+//     $row = mysqli_fetch_assoc($result);
+//     $user = mysqli_fetch_array($result);
+//     if ($count == 1) {
+//         session_start();
+//         $_SESSION['username'] = $row['UserName'];
+//         $_SESSION['password'] = $row['Password'];
+//         $_SESSION['flag'] = "true";
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+
+
+function login($username, $password)
+{
+    $con = getConnection();
+    $sql = "select * from users where UserName='$username' and password='$password'";
+    $result = mysqli_query($con, $sql);
+    $count = mysqli_num_rows($result);
+    $row = mysqli_fetch_assoc($result);
+    $user = mysqli_fetch_array($result);
+    if ($count == 1) {
+        session_start();
+        $_SESSION['username'] = $row['UserName'];
+        $_SESSION['password'] = $row['Password'];
+        $_SESSION['flag'] = "true";
+        return true;
+    } else {
+        return false;
+    }
+}
