@@ -1,5 +1,6 @@
 <?php
-$dbhost = "localhost:3325";
+// $dbhost = "localhost:3325";
+$dbhost = "localhost";
 $dbname = "solemates";
 $dbuser = "root";
 $dbpass = "";
