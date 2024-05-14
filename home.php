@@ -8,11 +8,15 @@ session_start();
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sole Mates Website</title>
-	<link rel="stylesheet" type="text/css" href="Assets//css//home.css">
+	<link rel="stylesheet" type="text/css" href="Assets\css\home.css">
+	<script src="https://kit.fontawesome.com/92d70a2fd8.js"></script>
+
+
 </head>
 
 <body>
-
+	<?php echo $_SESSION["loggedin"]; ?>
+	<?php echo $_SESSION["username"]; ?>
 
 	<form>
 
@@ -20,11 +24,18 @@ session_start();
 
 
 			<div class="logo">Sole<span class="mates">Mate</span></div>
-			<a href="#">Home</a>
+			<a href="">Home</a>
 			<a href="">Men</a>
 			<a href="">Women</a>
 			<a href="">Children</a>
 			<a href="">Accessories</a>
+
+			<div class="nav-icons">
+				<a href=""> <i class="fa-solid fa-magnifying-glass"></i></a>
+				<a href="Views\Login.php"><i class="fa-solid fa-user"></i></a>
+
+				<a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+			</div>
 
 		</div>
 
@@ -51,58 +62,63 @@ session_start();
 				<input type="submit" name="" value="SHOW MORE">
 
 
+			</div>
+			<div class="search-box">
+				<div class="row">
+					<input type="text" id="input-box" placeholder="Search shoes here" autocomplete="off">
+					<button>Search</button>
+				</div>
+
+
+
+
+
+
+				<div class="Homebox">
+					<div class="image-container">
+						<img src="Assets\Images\blue.png" alt="image 4" height="650px" width="650px">
+						<div class="image-container2">
+							<img src="Assets\Images\orange.png" alt="image 5" height="200px" width="200px">
+						</div>
+						<div class="image-container3">
+							<img src="Assets\Images\black.png" alt="image 6" height="200px" width="200px">
+
+						</div>
+					</div>
+					<div class="circle">
+
+					</div>
+
+
+
+					<div class="Textanime">
+						<h1><span class="sole">SOLE</span> <span class="mates">MATES</span></h1>
+						<h2>WEBSITE</h2>
+
+						<p>VERSATILE SHOES WITH A SPRINGY FEEL,</p>
+						<p>MADE IN PART WITH RECYCLED MATERIALS</p>
+						<p>Go for that walk around the neighborhood or head to</p>
+						<p>the gym in a pair of adidas for that walk around the neighborhood </p>
+						<p> or head to the gym in a pair of sole mates</p><br>
+						<input type="submit" id="scrollBtn" value="SHOP NOW"><br><br><br>
+						<div class="image-container1">
+							<img src="Assets\Images\orange.png" alt="Image 1" height="140px" width="140px">
+							<img src="Assets\Images\blue.png" alt="Image 2" height="140px" width="140px">
+							<img src="Assets\Images\black.png" alt="Image 3" height="140px" width="140px">
+							<div class="line"></div>
+						</div>
+
+
+
+
+					</div>
+				</div>
+
+
+
+
 
 			</div>
-
-
-
-
-
-			<div class="Homebox">
-				<div class="image-container">
-					<img src="Assets//Images//blue.png" alt="image 4" height="650px" width="650px">
-					<div class="image-container2">
-						<img src="Assets//Images//orange.png" alt="image 5" height="200px" width="200px">
-					</div>
-					<div class="image-container3">
-						<img src="Assets//Images//black.png" alt="image 6" height="200px" width="200px">
-
-					</div>
-				</div>
-				<div class="circle">
-
-				</div>
-
-
-
-				<div class="Textanime">
-					<h1><span class="sole">SOLE</span> <span class="mates">MATES</span></h1>
-					<h2>WEBSITE</h2>
-
-					<p>VERSATILE SHOES WITH A SPRINGY FEEL,</p>
-					<p>MADE IN PART WITH RECYCLED MATERIALS</p>
-					<p>Go for that walk around the neighborhood or head to</p>
-					<p>the gym in a pair of adidas for that walk around the neighborhood </p>
-					<p> or head to the gym in a pair of sole mates</p><br>
-					<input type="submit" id="scrollBtn" value="SHOP NOW"><br><br><br>
-					<div class="image-container1">
-						<img src="Assets//Images//orange.png" alt="Image 1" height="140px" width="140px">
-						<img src="Assets//Images//blue.png" alt="Image 2" height="140px" width="140px">
-						<img src="Assets//Images//black.png" alt="Image 3" height="140px" width="140px">
-						<div class="line"></div>
-					</div>
-
-
-
-
-				</div>
-			</div>
-
-
-
-
-
-		</div>
 		</div>
 
 

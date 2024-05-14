@@ -1,6 +1,6 @@
-body{
-    
-  background-color: #e6ebf7;
+body {
+
+	background-color: #e6ebf7;
 	margin: 0;
 	padding: 0;
 	background-size: cover;
@@ -10,66 +10,69 @@ body{
 
 
 .nav {
-    overflow: hidden;
-    background-color: #dfe9f8;
-    top: 0%;
-    width: 100%;
-    height: 11.5%;
-    text-align: center;
-    position: fixed;
-    z-index: 1000;
-    
+	overflow: hidden;
+	background-color: #dfe9f8;
+	top: 0%;
+	width: 100%;
+	height: 11.5%;
+	text-align: center;
+	position: fixed;
+	z-index: 1000;
+
 }
 
 .nav a {
-    color: black; /* Set text color to black for all navigation items */
-    text-decoration: none;
-    font-size: 17px;
-    padding: 14px 17px;
-    line-height: 10px;
-    transition: color 0.3s, background-color 0.3s;
+	color: black;
+	/* Set text color to black for all navigation items */
+	text-decoration: none;
+	font-size: 17px;
+	padding: 14px 17px;
+	line-height: 10px;
+	transition: color 0.3s, background-color 0.3s;
 
 }
 
 
 .logo {
-    font-weight: bold;
-    font-size: 20px;
-    color: #074770; /* Set the color for "Sole" */
-    text-align: left;
-    transform: translate(60px, 13px);
+	font-weight: bold;
+	font-size: 20px;
+	color: #074770;
+	/* Set the color for "Sole" */
+	text-align: left;
+	transform: translate(60px, 13px);
 
 
 }
 
 .mate {
-    color: black; /* Set the color for "Mates" */
+	color: black;
+	/* Set the color for "Mates" */
 }
 
 
 .nav a:hover {
-    background-color: #435c65;
-    color: white;
-    border-radius: 5px;
+	background-color: #435c65;
+	color: white;
+	border-radius: 5px;
 }
 
 .nav a.active {
-    background-color: #435c65;
-    color: white;
+	background-color: #435c65;
+	color: white;
 }
 
 .nav a:hover {
-    box-shadow: 0 0 10px rgba(1, 1, 1, 0.1);
+	box-shadow: 0 0 10px rgba(1, 1, 1, 0.1);
 }
 
 
 .nav a:first-of-type {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 
 
-.Homebox{
+.Homebox {
 
 	width: 1400px;
 	height: 700px;
@@ -78,57 +81,59 @@ body{
 	top: 60%;
 	left: 50%;
 	position: absolute;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	box-sizing: border-box;
 	padding: 70px, 40px;
 }
 
-.Textanime{
-   width: 600px;
+.Textanime {
+	width: 600px;
 	height: 700px;
 	background: white;
 	top: 50%;
 	left: 79%;
 	position: absolute;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	box-sizing: border-box;
 	padding: 70px, 40px;
 
 }
 
 .Textanime h1 {
-    font-weight: bold;
-    font-size: 40px;
+	font-weight: bold;
+	font-size: 40px;
 }
 
 .sole {
-    color: black; /* Set color for "SOLE" */
+	color: black;
+	/* Set color for "SOLE" */
 }
 
 .mates {
-    color: #072260; /* Set color for "MATES" */
+	color: #072260;
+	/* Set color for "MATES" */
 }
 
-.sole, .mates {
-    font-family: "ARIAL", serif;
- }
+.sole,
+.mates {
+	font-family: "ARIAL", serif;
+}
 
-h2{
+h2 {
 	color: #072260;
 	font-size: 40px;
 	font-weight: bold;
 	font-family: "Arial";
 }
 
-.Textanime p{
+.Textanime p {
 
 	color: black;
 }
 
-.Textanime input[type='submit']
-{
+.Textanime input[type='submit'] {
 
-	border: 2px solid black; 
+	border: 2px solid black;
 	outline: none;
 	height: 40px;
 	width: 120px;
@@ -142,36 +147,39 @@ h2{
 
 }
 
-.image-container1 img{
+.image-container1 img {
 
 	transform: scaleX(-1);
 }
 
 .line {
-    width: 100px; /* Adjust the width of the line */
-    height: 2px; /* Adjust the height or thickness of the line */
-    background-color: black; /* Set the color of the line */
-    border-bottom: 2px solid black;
+	width: 100px;
+	/* Adjust the width of the line */
+	height: 2px;
+	/* Adjust the height or thickness of the line */
+	background-color: black;
+	/* Set the color of the line */
+	border-bottom: 2px solid black;
 }
 
-.image-container img{
+.image-container img {
 
-    
+
 	transform: scaleX(-1) rotate(30deg) translateX(150px);
 	position: relative;
 	top: -60px;
 
 }
 
-.image-container2 img{
+.image-container2 img {
 
 	transform: scaleX(-1) rotate(25deg) translateX(45px);
 	position: relative;
 	top: -120px;
-	
+
 }
 
-.image-container3 img{
+.image-container3 img {
 
 	transform: scaleX(-1) rotate(25deg) translateX(45px);
 	position: relative;
@@ -181,17 +189,21 @@ h2{
 }
 
 .circle {
-    width: 250px; /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
-    
-    border-radius: 500%; /* Make it a circle */
-    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.2); /* Shadow effect */
-    position: relative;
-    top: -550px;
-    transform: translateX(340px);
+	width: 250px;
+	/* Adjust size as needed */
+	height: 20px;
+	/* Adjust size as needed */
+
+	border-radius: 500%;
+	/* Make it a circle */
+	box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.2);
+	/* Shadow effect */
+	position: relative;
+	top: -550px;
+	transform: translateX(340px);
 }
 
-.Homebox1{
+.Homebox1 {
 
 	width: 1400px;
 	height: 2000px;
@@ -200,106 +212,123 @@ h2{
 	top: 250%;
 	left: 50.5%;
 	position: absolute;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	box-sizing: border-box;
 	padding: 70px, 40px;
 }
 
-.Homebox1 h1{
+.Homebox1 h1 {
 
-    color: black;
+	color: black;
 	font-size: 30px;
 	font-family: "Arial";
 	font-weight: bold;
-	transform: translate(5%,100%);
+	transform: translate(5%, 70%);
 }
 
-.Homebox1 p{
+.Homebox1 p {
 
 	font-size: 16px;
 	color: black;
-	transform: translate(5%,130%);
+	transform: translate(5%, 140%);
 }
 
-.rec1{
+.rec1 {
 
-	width: 400px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-    background-color: #e6ebf7;
-    border: 0px solid black; /* Add border if desired */
-    border-radius: 20px; 
-    left: 100%;
-    transform: translate(18%,10%);
-
-}
-
-.rec2{
-
-    width: 400px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-    background-color: #e6ebf7;
-    border: 0px solid black; /* Add border if desired */
-    border-radius: 20px; 
-    left: 100%;
-    transform: translate(130%,-90%);
-
+	width: 400px;
+	/* Adjust the width as needed */
+	height: 400px;
+	/* Adjust the height as needed */
+	background-color: #e6ebf7;
+	border: 0px solid black;
+	/* Add border if desired */
+	border-radius: 20px;
+	left: 100%;
+	transform: translate(18%, 10%);
 
 }
 
-.rec3{
+.rec2 {
 
-    width: 400px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-    background-color: #e6ebf7;
-    border: 0px solid black; /* Add border if desired */
-    border-radius: 20px; 
-    left: 100%;
-    transform: translate(240%,-190%);
+	width: 400px;
+	/* Adjust the width as needed */
+	height: 400px;
+	/* Adjust the height as needed */
+	background-color: #e6ebf7;
+	border: 0px solid black;
+	/* Add border if desired */
+	border-radius: 20px;
+	left: 100%;
+	transform: translate(130%, -90%);
 
 
 }
 
-.rec4{
+.rec3 {
 
-    width: 400px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-    background-color: #e6ebf7;
-    border: 0px solid black; /* Add border if desired */
-    border-radius: 20px; 
-    left: 100%;
-    transform: translate(240%,-120%);
+	width: 400px;
+	/* Adjust the width as needed */
+	height: 400px;
+	/* Adjust the height as needed */
+	background-color: #e6ebf7;
+	border: 0px solid black;
+	/* Add border if desired */
+	border-radius: 20px;
+	left: 100%;
+	transform: translate(240%, -190%);
+
+
+}
+
+.rec4 {
+
+	width: 400px;
+	/* Adjust the width as needed */
+	height: 400px;
+	/* Adjust the height as needed */
+	background-color: #e6ebf7;
+	border: 0px solid black;
+	/* Add border if desired */
+	border-radius: 20px;
+	left: 100%;
+	transform: translate(240%, -120%);
 
 
 }
 
-.rec5{
-     
-    width: 400px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-    background-color: #e6ebf7;
-    border: 0px solid black; /* Add border if desired */
-    border-radius: 20px; 
-    left: 100%;
-    transform: translate(130%,-220%);
+.rec5 {
+
+	width: 400px;
+	/* Adjust the width as needed */
+	height: 400px;
+	/* Adjust the height as needed */
+	background-color: #e6ebf7;
+	border: 0px solid black;
+	/* Add border if desired */
+	border-radius: 20px;
+	left: 100%;
+	transform: translate(130%, -220%);
 
 }
 
-.rec6{
+.rec6 {
 
-	width: 400px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-    background-color: #e6ebf7;
-    border: 0px solid black; /* Add border if desired */
-    border-radius: 20px; 
-    left: 100%;
-    transform: translate(20%,-320%);
+	width: 400px;
+	/* Adjust the width as needed */
+	height: 400px;
+	/* Adjust the height as needed */
+	background-color: #e6ebf7;
+	border: 0px solid black;
+	/* Add border if desired */
+	border-radius: 20px;
+	left: 100%;
+	transform: translate(20%, -320%);
 
 }
 
-.Homebox1 input[type='submit']
-{
+.Homebox1 input[type='submit'] {
 
-	border: 2px solid black; 
+	border: 2px solid black;
 	outline: none;
 	height: 60px;
 	width: 150px;
@@ -310,11 +339,11 @@ h2{
 	border-radius: 25px;
 	border-color: white;
 	font-weight: bold;
-    transform: translate(420%,-1700%);
+	transform: translate(420%, -1700%);
 
 }
 
-body{
+body {
 
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
@@ -324,43 +353,42 @@ body{
 
 
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-.container10{
+.container10 {
 
 	max-width: 1170px;
 	background-color: none;
 	margin: auto;
 }
 
-.row{
+.row {
 
 	display: flex;
 	flex-wrap: wrap;
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
-.footer
-{
+.footer {
 	background-color: #042639;
-	padding: 50px 0;
-	transform: translate(0%, 300%);
+	padding: 300px 0;
+	transform: translate(0%, 200%);
 
 }
 
-.footer-col{
+.footer-col {
 	width: 25%;
 	padding: 0 15px;
 }
 
-.footer-col h4{
+.footer-col h4 {
 
 	font-size: 18px;
 	color: #ffffff;
@@ -371,7 +399,7 @@ ul{
 	background-color: ;
 }
 
-.footer-col h4::before{
+.footer-col h4::before {
 
 	content: '';
 	position: absolute;
@@ -383,12 +411,12 @@ ul{
 	width: 50px;
 }
 
-.footer-col ul li:not(:last-child){
+.footer-col ul li:not(:last-child) {
 
 	margin-bottom: 10px;
 }
 
-.footer-col ul li a{
+.footer-col ul li a {
 
 	font-size: 16px;
 	text-transform: capitalize;
@@ -400,30 +428,110 @@ ul{
 	transition: all 0.3s ease;
 }
 
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
 
 	color: #ffffff;
 	padding-left: 8px;
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px) {
 
-	.footer-col{
+	.footer-col {
 		width: 50%;
 		margin-bottom: 30px;
 	}
 }
 
-@media(max-width: 574px){
+@media(max-width: 574px) {
 
-	.footer-col{
+	.footer-col {
 		width: 100%;
-		
+
 	}
+}
+
+.search-box {
+
+	width: 600px;
+	background: #fff;
+	margin: 200px auto 0;
+	border-radius: 5px;
+}
+
+.row {
+
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+input {
+
+	flex: 1;
+	height: 50px;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 18px;
+	color: #333;
+}
+
+button {
+
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+
+button .fa-solid {
+	width: 25px;
+	color: #555;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+::placeholder {
+
+	color: #555;
+}
+
+.nav-icons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	/* Align icons to the right */
+	transform: translate(-70px, -35px);
+}
+
+.nav-icons a {
+	margin-left: -13px;
+	/* Adjust spacing between icons */
+	color: #333;
+	/* Icon color */
+	font-size: 20px;
+	/* Icon size */
+	text-decoration: none;
+}
+
+/* Adjust the icon size and color */
+.fa-solid {
+	width: 24px;
+	height: 24px;
+}
+
+/* Styling for specific icons */
+.fa-user:before {
+	content: "\f007";
+	/* Unicode for user icon */
+}
+
+.fa-cart-shopping:before {
+	content: "\f07a";
+	/* Unicode for shopping cart icon */
 }
 
 
 
 .content {
-    padding-top: 1000px; 
+	padding-top: 1000px;
 }

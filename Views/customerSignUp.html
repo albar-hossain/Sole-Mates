@@ -10,9 +10,9 @@
     <div class="signUpBox">
         <h2 class="greet">Looks like you are new here.<br>
             We need some info.</h2>
-    <form action="../controllers/signUpCheckController.php"" method="post">      
+    <form action="../controllers/logController.php"" method="post">      
                         <br>
-                        <input type="text" name="name" value="" id="fullName" placeholder="Full Name*"><br/>
+                        <input type="text" name="fullName" value="" id="fullName" placeholder="Full Name*"><br/>
                         <br>
                         <input type="text" name="userName" value="" id="userName" placeholder="User Name*"><br/>   
                         <br>
@@ -22,8 +22,9 @@
                         <input type="checkbox" name="agreeUpdates" value="agree" checked>
                         <label for="agree">Be the first to hear about new releases, special offers and more.</label>
                         <p>By clicking "Register", you agree to our <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.</p>
-                        <input type="submit" name="Register" value="Register">                   
+                        <input type="submit" name="sign_up" value="Register">                   
     </form>
 </div>
 </body>
+<script src="../Assets/JS/registrationValidation.js"></script>
 </html>
