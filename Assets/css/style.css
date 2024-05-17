@@ -1,0 +1,805 @@
+body{
+    
+  background-color: #e6ebf7;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+
+.nav {
+    overflow: hidden;
+    background-color: #dfe9f8;
+    top: 0%;
+    width: 100%;
+    height: 11.5%;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    
+}
+
+.nav a {
+    color: black; 
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 17px;
+    line-height: 10px;
+    transition: color 0.3s, background-color 0.3s;
+
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #074770; /* Set the color for "Sole" */
+    text-align: left;
+    transform: translate(60px, 13px);
+
+
+}
+
+.mate {
+    color: black; /* Set the color for "Mates" */
+}
+
+
+.nav a:hover {
+    background-color: #435c65;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav a.active {
+    background-color: #435c65;
+    color: white;
+}
+
+
+
+
+.nav a:first-of-type {
+    font-weight: bold;
+}
+
+
+
+.Homebox{
+
+	width: 1400px;
+	height: 700px;
+	background: #ffffff;
+	color: #ffffff;
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px, 40px;
+}
+
+.Textanime{
+   width: 600px;
+	height: 700px;
+	background: white;
+	top: 50%;
+	left: 79%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px, 40px;
+
+}
+
+.Textanime h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sole {
+    color: black; /* Set color for "SOLE" */
+}
+
+.mates {
+    color: #072260; /* Set color for "MATES" */
+}
+
+.sole, .mates {
+    font-family: "ARIAL", serif;
+ }
+
+h2{
+	color: #072260;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Arial";
+}
+
+.Textanime p{
+
+	color: black;
+}
+
+.Textanime input[type='submit']
+{
+
+	border: 2px solid black; 
+	outline: none;
+	height: 40px;
+	width: 120px;
+	background: #ffffff;
+	color: black;
+	font-size: 18px;
+	max-width: 100%;
+	border-radius: 5px;
+	border-color: black;
+	font-weight: bold;
+
+}
+
+.image-container1 img{
+
+	transform: scaleX(-1);
+}
+
+.line {
+    width: 100px; /* Adjust the width of the line */
+    height: 2px; /* Adjust the height or thickness of the line */
+    background-color: black; /* Set the color of the line */
+    border-bottom: 2px solid black;
+}
+
+.image-container img{
+
+    
+	transform: scaleX(-1) rotate(30deg) translateX(150px);
+	position: relative;
+	top: -60px;
+
+}
+
+.image-container2 img{
+
+	transform: scaleX(-1) rotate(25deg) translateX(45px);
+	position: relative;
+	top: -120px;
+	
+}
+
+.image-container3 img{
+
+	transform: scaleX(-1) rotate(25deg) translateX(45px);
+	position: relative;
+	top: -850px;
+
+
+}
+
+.circle {
+    width: 250px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    
+    border-radius: 500%; /* Make it a circle */
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    position: relative;
+    top: -550px;
+    transform: translateX(340px);
+}
+
+.Homebox1{
+
+	width: 1400px;
+	height: 2000px;
+	background: #ffffff;
+	color: #ffffff;
+	top: 250%;
+	left: 50.5%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px, 40px;
+}
+
+.Homebox1 h1{
+
+    color: black;
+	font-size: 30px;
+	font-family: "Arial";
+	font-weight: bold;
+	transform: translate(5%,70%);
+}
+
+.Homebox1 p{
+
+	font-size: 16px;
+	color: black;
+	transform: translate(5%,140%);
+}
+
+.rec1{
+
+	width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(18%,10%);
+
+}
+
+.rec2{
+
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(130%,-90%);
+
+
+}
+
+.rec3{
+
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(240%,-190%);
+
+
+}
+
+.rec4{
+
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(240%,-120%);
+
+
+}
+
+.rec5{
+     
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(130%,-220%);
+
+}
+
+.rec6{
+
+	width: 400px; 
+    height: 400px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(20%,-320%);
+
+}
+
+.Homebox1 input[type='submit']
+{
+
+	border: 2px solid black; 
+	outline: none;
+	height: 60px;
+	width: 150px;
+	background: #14415b;
+	color: white;
+	font-size: 18px;
+	max-width: 200%;
+	border-radius: 25px;
+	border-color: white;
+	font-weight: bold;
+    transform: translate(420%,-1700%);
+
+}
+
+body{
+
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container10{
+
+	max-width: 1170px;
+	background-color: none;
+	margin: auto;
+}
+
+.row{
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer
+{
+	background-color: #042639;
+	padding: 300px 0;
+	transform: translate(0%, 200%);
+
+}
+
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4{
+
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+	background-color: ;
+}
+
+.footer-col h4::before{
+
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+@media(max-width: 767px){
+
+	.footer-col{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px){
+
+	.footer-col{
+		width: 100%;
+		
+	}
+}
+
+.search-box{
+
+	width: 600px;
+	background: #fff;
+	margin: 200px auto 0;
+	border-radius: 5px;
+}
+
+.row{
+
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+input{
+
+	flex: 1;
+	height: 50px;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 18px;
+	color: #333;
+}
+
+button{
+
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+
+button .fa-solid {
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+::placeholder{
+
+	color: #555;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align icons to the right */
+    margin-top: -40px; /* Adjust the margin to move the icons up */
+}
+
+.nav-icons a {
+    margin-left: -10px; /* Adjust spacing between icons */
+    color: #333; /* Icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none;
+    transform: translate(-50px, 0px);
+}
+
+/* Remove hover styles from icon anchor tags */
+.nav-icons a:hover {
+    background-color: transparent;
+    color: #333;
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Adjust the icon size and color */
+.fa-solid {
+    width: 24px;
+    height: 24px;
+}
+
+/* Styling for specific icons */
+.fa-user:before {
+    content: "\f007"; /* Unicode for user icon */
+}
+
+.fa-cart-shopping:before {
+    content: "\f07a"; /* Unicode for shopping cart icon */
+}
+
+/*Image*/
+
+.rec1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area of the rectangle */
+    border-radius: 20px; /* Match the border-radius of the rectangle */
+}
+
+.rec2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area of the rectangle */
+    border-radius: 20px; /* Match the border-radius of the rectangle */
+}
+
+.rec3 img {
+    width: 105%;
+    height: 105%;
+    object-fit: cover; /* Ensure the image covers the entire area of the rectangle */
+    border-radius: 20px; /* Match the border-radius of the rectangle */
+}
+
+
+.rec4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area of the rectangle */
+    border-radius: 20px; /* Match the border-radius of the rectangle */
+}
+
+.rec5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area of the rectangle */
+    border-radius: 20px; /* Match the border-radius of the rectangle */
+}
+
+.rec6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area of the rectangle */
+    border-radius: 20px; /* Match the border-radius of the rectangle */
+}
+
+
+
+.rec1 p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin: 10px 0; /* Add spacing between text lines */
+    text-align: center; /* Align text in the center */
+}
+
+.rec1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Remove underline from anchor tags */
+    color: #333; /* Text color */
+}
+
+.rec1 a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+.rec2 p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin: 10px 0; /* Add spacing between text lines */
+    text-align: center; /* Align text in the center */
+}
+
+.rec2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Remove underline from anchor tags */
+    color: #333; /* Text color */
+}
+
+.rec2 a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.rec3 p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin: 10px 0; /* Add spacing between text lines */
+    text-align: center; /* Align text in the center */
+}
+
+.rec3 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Remove underline from anchor tags */
+    color: #333; /* Text color */
+}
+
+.rec3 a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.rec4 p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin: 10px 0; /* Add spacing between text lines */
+    text-align: center; /* Align text in the center */
+}
+
+.rec4 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Remove underline from anchor tags */
+    color: #333; /* Text color */
+}
+
+.rec4 a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.rec5 p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin: 10px 0; /* Add spacing between text lines */
+    text-align: center; /* Align text in the center */
+}
+
+.rec5 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Remove underline from anchor tags */
+    color: #333; /* Text color */
+}
+
+.rec5 a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.rec6 p {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin: 10px 0; /* Add spacing between text lines */
+    text-align: center; /* Align text in the center */
+}
+
+.rec6 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Remove underline from anchor tags */
+    color: #333; /* Text color */
+}
+
+.rec6 a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/*Label*/
+
+.discount-label {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label1 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label2 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label3 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label4 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label5 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+
+/*Search*/
+
+
+
+/*Details Page*/
+
+.Detailbox {
+    margin-top: 20px; /* Add some space between the navigation and detail box */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #ffffff; /* White background */
+    color: black; /* Set text color to black */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start; /* Align items to the start (left) */
+}
+
+.product-details {
+    margin-left: 100px; /* Adding some space between the picture and text */
+    text-align: left; /* Align text to the left */
+    font-size: 30px;
+}
+
+.product-details p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+}
+
+.product-details ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.product-details ul li {
+    margin-bottom: 5px; /* Add space between list items */
+}
+
+/*additional text*/
+
+.additional-text {
+    text-align: right; /* Align text to the right */
+    transform: translate(-200px, -500px);
+    font-size: 30px;
+}
+
+.add-to-cart-btn,
+.buy-now-btn {
+    padding: 10px 40px; /* Add padding to the buttons */
+    background-color: #14415b; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.add-to-cart-btn:hover,
+.buy-now-btn:hover {
+    background-color: #072260; /* Change button background color on hover */
+}
+
+.size-selector {
+    padding: 8px;
+    margin-right: 10px; /* Add space between selectors */
+}
+
+.quantity-selector {
+    padding: 8px;
+    width: 60px;
+}
+
+
+.content {
+    padding-top: 1000px; 
+}
