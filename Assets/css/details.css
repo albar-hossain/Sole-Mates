@@ -1,0 +1,17 @@
+
+.Detailbox img {
+    transform: translate(-330px, 80px);
+}
+
+.product-details {
+    transform: translate(300px, -550px);
+}
+
+p {
+font-size: 18px;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+            

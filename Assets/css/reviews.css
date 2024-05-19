@@ -1,0 +1,64 @@
+.re-div
+{
+
+margin:auto;
+width:40%;
+margin-top:15%;
+transform: translate(0px,-450px);
+}
+
+.re-div input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 2.8rem;
+    padding: 1.4rem 1.2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1;
+    letter-spacing: 0.08rem;
+    background-color: #fff;
+    border: 0.1rem solid #c6c8ca;
+    border-radius: 0.2rem;
+    caret-color: #131313;
+    appearance: none;
+    position: relative;
+
+}
+.re-div input[type="submit"] {
+
+    background-color: #656565;
+    position: relative;
+    font-size: 1.6rem;
+    text-align: center;
+    border: 0;
+    border-radius: 0.2rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    height: 2.8rem;
+    padding: 0 2.4rem 0 2.4rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 2.2rem;
+    letter-spacing: 0.05em;
+    transform: translate(-50px,-30px);
+}
+
+.re-div input[type="submit"]:hover {
+    cursor: pointer;
+    background: #313131;
+    color: #fff;
+}
+
+.re-div label {
+    align-items: start;
+    margin-bottom: 1rem;
+    color: #656565;
+    font-size: 1.6rem;
+    line-height: 1.35;
+    width: 100%;
+    transform: translate(0px,-150px);
+}
+
+.re-div fieldset {
+    transform: translate(0px,-400px);
+    border:1px solid black;
+}

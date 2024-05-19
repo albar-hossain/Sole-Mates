@@ -1,0 +1,36 @@
+.cart {
+margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(237, 241, 255, 0.955);
+    border: 30px;
+    border-color: black;
+    
+}
+th {
+    font-size: large;
+}
+td {
+    padding: 20px 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.bill h3 {
+    transform: translate(1250px,-300px);
+}
+
+.bill h4 {
+    transform: translate(1400px,-300px);
+}
+
+.bill button {
+    transform: translate(1250px,-250px);
+    width: 300px;
+    height: 50px;
+}
+
+.bill input{
+    transform: translate(1250px,-250px);
+}

@@ -1,0 +1,400 @@
+body{
+    
+  background-color: #e6ebf7;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+
+.nav {
+    overflow: hidden;
+    background-color: #dfe9f8;
+    top: 0%;
+    width: 100%;
+    height: 11.5%;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    
+}
+
+.nav a {
+    color: black; 
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 17px;
+    line-height: 10px;
+    transition: color 0.3s, background-color 0.3s;
+
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #074770; /* Set the color for "Sole" */
+    text-align: left;
+    transform: translate(60px, 13px);
+
+
+}
+
+.mate {
+    color: black; /* Set the color for "Mates" */
+}
+
+
+.nav a:hover {
+    background-color: #435c65;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav a.active {
+    background-color: #435c65;
+    color: white;
+}
+
+
+
+
+.nav a:first-of-type {
+    font-weight: bold;
+}
+
+
+/*Icon*/
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align icons to the right */
+    margin-top: -40px; /* Adjust the margin to move the icons up */
+}
+
+.nav-icons a {
+    margin-left: -10px; /* Adjust spacing between icons */
+    color: #333; /* Icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none;
+    transform: translate(-50px, 0px);
+    
+}
+
+/* Remove hover styles from icon anchor tags */
+.nav-icons a:hover {
+    background-color: transparent;
+    color: #333;
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Adjust the icon size and color */
+.fa-solid {
+    width: 24px;
+    height: 24px;
+}
+
+/* Styling for specific icons */
+.fa-user:before {
+    content: "\f007"; /* Unicode for user icon */
+}
+
+.fa-cart-shopping:before {
+    content: "\f07a"; /* Unicode for shopping cart icon */
+}
+
+
+/*Products*/
+
+.Productbox1{
+
+    width: 1400px;
+    height: 2000px;
+    background: #ffffff;
+    color: #ffffff;
+    top: 150%;
+    left: 50.5%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px, 40px;
+}
+
+.Homebox1 h1{
+
+    color: black;
+    font-size: 30px;
+    font-family: "Arial";
+    font-weight: bold;
+    transform: translate(5%,70%);
+}
+
+.Homebox1 p{
+
+    font-size: 16px;
+    color: black;
+    transform: translate(5%,140%);
+}
+
+.rec1{
+
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(18%,10%);
+
+}
+
+.rec2{
+
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(130%,-90%);
+
+
+}
+
+.rec3{
+
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(240%,-190%);
+
+
+}
+
+.rec4{
+
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(240%,-120%);
+
+
+}
+
+.rec5{
+     
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #e6ebf7;
+    border: 0px solid black; /* Add border if desired */
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(130%,-220%);
+
+}
+
+.rec6{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(20%,-320%);
+
+}
+
+.rec7{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(1050px,-1770px);
+
+}
+
+.rec8{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(1050px,-1560px);
+
+}
+
+.rec9{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(1050px,-1350px);
+
+}
+
+.rec10{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(710px,-1650px);
+
+}
+
+.rec11{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(380px,-1950px);
+
+}
+
+.rec12{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(50px,-2250px);
+
+}
+
+.rec13{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(50px,-2050px);
+
+}
+
+.rec14{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(1050px,-2350px);
+
+}
+
+.rec15{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(710px,-2650px);
+
+}
+
+.rec16{
+
+    width: 300px; 
+    height: 300px; 
+    background-color: #e6ebf7;
+    border: 0px solid black; 
+    border-radius: 20px; 
+    left: 100%;
+    transform: translate(380px,-2950px);
+
+}
+
+
+/*Label*/
+
+.discount-label {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label1 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label2 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label3 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label4 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+.discount-label5 {
+    background-color: #072260; /* Dark blue background color */
+    color: white; /* Text color of the label */
+    font-size: 14px; /* Font size of the label */
+    padding: 5px 10px; /* Padding of the label */
+    border-radius: 5px; /* Border radius of the label */
+    position: absolute; /* Position the label relative to its parent */
+    bottom: 10px; /* Distance from the bottom of the parent */
+    left: 10px; /* Align the label a little bit to the left */
+}
+
