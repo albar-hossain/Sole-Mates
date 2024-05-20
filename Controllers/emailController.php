@@ -3,15 +3,15 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// require 'vendor/autoload.php';
-require '../mymail/vendor/autoload.php';
+require '../Assets/mymail/vendor/autoload.php';
 
-function signUpConfirmationEmailOld($email, $userName) {
+function signUpConfirmationEmailOld($email, $userName)
+{
     $to = $email;
     $subject = "Welcome to Bangladesh's premier sneaker marketplace";
     $message = "Welcome to Sole Mates $userName! We're glad you joined us.";
     $header = "From: Sole Mates";
-    if ( mail($to, $subject, $message, $header)) {
+    if (mail($to, $subject, $message, $header)) {
         echo "Email Sent Succesfully";
     } else {
         echo "Email Failed";
@@ -19,27 +19,28 @@ function signUpConfirmationEmailOld($email, $userName) {
 }
 
 
-function signUpConfirmationEmail($email, $userName) {
+function signUpConfirmationEmail($email, $userName)
+{
 
-$mail = new PHPMailer(true);
+    $mail = new PHPMailer(true);
 
-try {
-	$mail->SMTPDebug = 0;									
-	$mail->isSMTP();											
-	$mail->Host	 = 'smtp.gmail.com';					
-	$mail->SMTPAuth = true;							
-	$mail->Username = 'solemates.bd.2024@gmail.com';				
-	$mail->Password = 'adfzrukqegtwdsxu';						
-	$mail->SMTPSecure = 'tls';							
-	$mail->Port	 = 587;
+    try {
+        $mail->SMTPDebug = 0;
+        $mail->isSMTP();
+        $mail->Host = 'smtp.gmail.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'solemates.bd.2024@gmail.com';
+        $mail->Password = 'adfzrukqegtwdsxu';
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
 
-	$mail->setFrom('solemates.bd.2024@gmail.com', 'Sole Mates');		
-	$mail->addAddress($email);
-	$mail->addAddress('albarhossain@gmail.com', 'Albar Hossain');
-	
-	$mail->isHTML(true);								
-	$mail->Subject = 'Welcome to Bangladesh\'s premier sneaker marketplace';
-	$mail->Body = '<body style="font-family: ProximaNova, sans-serif">
+        $mail->setFrom('solemates.bd.2024@gmail.com', 'Sole Mates');
+        $mail->addAddress($email);
+        $mail->addAddress('albarhossain@gmail.com', 'Albar Hossain');
+
+        $mail->isHTML(true);
+        $mail->Subject = 'Welcome to Bangladesh\'s premier sneaker marketplace';
+        $mail->Body = '<body style="font-family: ProximaNova, sans-serif">
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td align="center" style="padding: 20px;">
@@ -65,7 +66,7 @@ try {
                             <table cellspacing="0" cellpadding="0" style="margin: auto;">
                                 <tr>
                                     <td align="center" style="background-color: #313131; padding: 10px 20px; border-radius: 5px;">
-                                        <a href="http://localhost/SoleMates/Views/customerSignUp.html" target="_blank" style="color: #ffffff; text-decoration: none; font-weight: bold;">Login to continue</a>
+                                        <a href="http://localhost/SoleMates2/Views/login.php" target="_blank" style="color: #ffffff; text-decoration: none; font-weight: bold;">Login to continue</a>
                                     </td>
                                 </tr>
                             </table>
@@ -94,12 +95,12 @@ try {
         </tr>
     </table>
 </body>';
-	$mail->AltBody = 'Welcome to Sole Mates! We\'re glad you joined us.';
-	$mail->send();
-	echo "Mail has been sent successfully!";
-} catch (Exception $e) {
-	//echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-}
+        $mail->AltBody = 'Welcome to Sole Mates! We\'re glad you joined us.';
+        $mail->send();
+        echo "Mail has been sent successfully!";
+    } catch (Exception $e) {
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    }
 }
 
 ?>

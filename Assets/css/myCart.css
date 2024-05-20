@@ -1,0 +1,44 @@
+/* myCart.css */
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px; /* Add some padding for better visuals */
+}
+
+.tables-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Adjust spacing between tables as needed */
+}
+
+.cart {
+    border-collapse: collapse;
+    width: auto;
+    margin: 0;
+}
+
+.bill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.cart th, .cart td, .bill table th, .bill table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.cart th, .bill table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.purchase {
+    width: 100%;
+    text-align: center;
+}
